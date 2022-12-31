@@ -1,0 +1,34 @@
+.nav {
+  height: 74px;
+  width: 1920px;
+  // left: 0;
+  top: 0px;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 80px;
+  background: #1e1e1e;
+  img {
+    height: 36px;
+    width: 164px;
+    border-radius: 0px;
+  }
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+    }
+  }
+  #login {
+    height: 42px;
+    width: 175px;
+    left: 1445px;
+    top: 17px;
+    border-radius: 131px;
+
+    background-color: #100c16;
+    margin-left: 600px;
+  }
+}

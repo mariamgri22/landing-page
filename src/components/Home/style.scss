@@ -1,0 +1,150 @@
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+
+  .home1 {
+    margin-top: 100px;
+    .textArea {
+      /* or 141% */
+
+      letter-spacing: 0.007em;
+      .t1 {
+        display: flex;
+        margin: 0;
+        h1 {
+          font-weight: 700;
+          size: 49px;
+          line-height: 69px;
+          letter-spacing: 0.7%;
+          color: #ffc759;
+          margin: 0;
+          text-transform: uppercase;
+        }
+        h2 {
+          font-weight: 400;
+          size: 49px;
+          margin: 10px;
+          color: #ffff;
+        }
+      }
+    }
+    h3 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 153% */
+
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.007em;
+
+      color: #ffffff;
+    }
+
+    .time {
+      width: 292.09px;
+      height: 19px;
+      left: 296.91px;
+      top: 533px;
+      display: flex;
+      margin-top: 20px;
+
+      .completed {
+        width: 16.82px;
+        height: 17px;
+        left: 296.91px;
+        top: 534px;
+      }
+      .freeTrial {
+        width: 258px;
+        height: 19px;
+        left: 331px;
+        top: 533px;
+
+        margin: 0;
+        margin-left: 10px;
+
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.005em;
+
+        color: #ffffff;
+        .line {
+          width: 2px;
+          height: 12px;
+          left: 436px;
+          top: 537px;
+
+          background: rgba(255, 255, 255, 0.3);
+          border-radius: 4px;
+        }
+      }
+    }
+    .review {
+      display: flex;
+      align-content: space-between;
+      justify-content: space-between;
+      margin-top: 20px;
+      .rating {
+        width: 51.81px;
+        height: 19.65px;
+        left: 300px;
+        top: 616px;
+
+        background: #fdc600;
+        border-radius: 2.68009px;
+        display: flex;
+        flex-direction: row;
+        .star {
+          padding-top: 4px;
+          width: 47px;
+          height: 7.99px;
+        }
+      }
+      .str {
+        margin-right: 10px;
+        margin: 0;
+      }
+    }
+    .icons {
+      display: flex;
+
+      align-content: space-between;
+
+      justify-content: space-between;
+    }
+  }
+  .home2 {
+    .offPic {
+      width: 680px;
+      height: 680px;
+      position: relative;
+      left: 0;
+      top: 0;
+
+      .outline {
+        position: relative;
+        width: 680px;
+        height: 680px;
+        left: 0;
+        top: 0;
+      }
+
+      .off {
+        position: absolute;
+        width: 479.34px;
+        height: 286.77px;
+        top: 156px;
+        left: 42px;
+      }
+    }
+  }
+}

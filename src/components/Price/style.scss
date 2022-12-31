@@ -1,0 +1,218 @@
+.prices {
+  display: flex;
+  // align-items: center;
+  margin: 0;
+  flex-direction: column;
+  h3 {
+    width: 626px;
+    height: 52px;
+    left: 643px;
+    top: 900px;
+
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 52px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+    letter-spacing: 0.007em;
+
+    color: #ffffff;
+    span {
+      font: italic;
+    }
+  }
+  .price {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    .priceMonth {
+      position: relative;
+      .benefits {
+        position: relative;
+        z-index: 1;
+        width: 264px;
+        height: 247px;
+        left: 643px;
+        top: 984px;
+        .fifty {
+          position: absolute;
+          width: 123px;
+          height: 104px;
+          right: 314px;
+          bottom: 934px;
+
+          font-family: "Design";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 50px;
+          line-height: 104px;
+          /* identical to box height, or 208% */
+
+          letter-spacing: 0.007em;
+
+          color: #ffffff;
+
+          text-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+        }
+        img {
+          position: absolute;
+          width: 264px;
+          height: 247px;
+          right: 264px;
+          bottom: 864px;
+        }
+      }
+      .table {
+        //  position: absolute;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 537px;
+        height: 586px;
+        left: 297px;
+        top: 1065px;
+
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(141, 159, 244, 0.3);
+        backdrop-filter: blur(5.5px);
+        /* Note: backdrop-filter has minimal browser support */
+
+        border-radius: 10px;
+        h2 {
+          width: 145px;
+          height: 52px;
+          left: 493px;
+          top: 1118px;
+          margin: 0;
+          font-family: "Source Sans Pro";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 39px;
+          line-height: 52px;
+          /* identical to box height, or 133% */
+
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.007em;
+
+          color: rgba(255, 255, 255, 0.86);
+        }
+        .allPr {
+          display: flex;
+
+          .oldPrice {
+            position: relative;
+            width: 74px;
+            height: 60px;
+            margin: 0;
+            font-family: "Source Sans Pro";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 31px;
+            line-height: 58px;
+            /* identical to box height, or 188% */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.007em;
+
+            color: #ffffff;
+            .line {
+              position: absolute;
+              width: 74.55px;
+              height: 0.43px;
+
+              border: 3.4px solid #f354b4;
+              transform: matrix(0.96, -0.27, -0.27, -0.96, 0, 0);
+            }
+          }
+          .price {
+            width: 196px;
+            height: 158px;
+            left: 463px;
+            top: 1172px;
+            margin: 0;
+            font-family: "Source Sans Pro";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 80px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.007em;
+
+            color: #ffffff;
+          }
+        }
+        h3 {
+          width: 191px;
+          height: 60px;
+          left: 468px;
+          top: 1287px;
+
+          font-family: "Source Sans Pro";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 59px;
+          /* or 211% */
+
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.007em;
+
+          color: rgba(255, 255, 255, 0.75);
+        }
+        ul {
+          list-style: none;
+          li {
+            left: 25.77%;
+            right: 67.01%;
+            top: 31.64%;
+            bottom: 67.22%;
+
+            font-family: "Source Sans Pro";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            /* or 122% */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.007em;
+
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .gradientBlue {
+      position: absolute;
+      width: 480px;
+      height: 480px;
+      right: 160px;
+      bottom: 0;
+
+      background: rgba(99, 133, 253, 0.1);
+      filter: blur(115px);
+    }
+    .gradientPink {
+      position: absolute;
+      width: 396px;
+      height: 396px;
+      left: 200px;
+      bottom: 200px;
+
+      background: rgba(253, 119, 159, 0.1);
+      filter: blur(115px);
+    }
+  }
+}

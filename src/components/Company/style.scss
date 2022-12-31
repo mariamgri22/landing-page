@@ -1,0 +1,43 @@
+.company {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+  padding: 200px;
+  .companies {
+    display: flex;
+    flex-direction: column;
+    .cnt {
+      display: flex;
+      justify-content: center;
+      .txt {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 42px;
+        /* or 135% */
+
+        display: flex;
+        align-items: center;
+        margin: auto;
+        letter-spacing: 0.007em;
+
+        color: #ffffff;
+      }
+    }
+    .logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .c1 {
+        display: flex;
+        justify-content: center;
+      }
+      img {
+        height: 72.66023254394531px;
+        width: 196.6100311279297px;
+        padding: 20px;
+        filter: grayscale(100%);
+      }
+    }
+  }
+}

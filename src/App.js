@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { AnimateOnScroll } from "animate-on-scroll-framer";
+import "./App.scss";
+import Cards from "./components/Cards";
+import Company from "./components/Company";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar/NavBar";
+import Price from "./components/Price";
+import Time from "./components/Time";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrap">
+      <div className="wrapper">
+        <NavBar />
+        <Home />
+        <Price />
+        <AnimateOnScroll duration={2} delay={1} animation="flipIn">
+          <Cards />
+        </AnimateOnScroll>
+        <Time />
+        <Company />
+      </div>
+      <Footer />
     </div>
   );
 }
