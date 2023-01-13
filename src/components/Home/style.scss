@@ -1,6 +1,6 @@
 .home {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding-bottom: 100px;
 
   .home1 {
@@ -111,7 +111,7 @@
       }
       .str {
         margin-right: 10px;
-        margin: 0;
+        // margin: 0;
       }
     }
     .icons {

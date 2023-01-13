@@ -28,9 +28,7 @@ export default function Home() {
             WebWork saves you time.
           </h3>
 
-          <button>
-            <div className="h4">SAVE BIG NOW</div>{" "}
-          </button>
+          <button>SAVE BIG NOW </button>
           <div className="time">
             <img className="completed" src={completed} alt="clock" />
             <h3 className="freeTrial">

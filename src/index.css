@@ -1,13 +1,10 @@
 body {
-  margin: 0 auto;
   font-family: "Source Sans Pro", "Poppins";
   src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap"),
     url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-  height: 4286px;
-  width: 1920px;
-  left: -960px;
-  top: -2142px;
-  border-radius: 0px;
+  /* height: 4286px;
+ // width: 1920px; */
+  box-sizing: border-box;
   background: #100c16;
 }
 

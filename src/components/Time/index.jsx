@@ -86,9 +86,7 @@ export default function Time() {
                       Billable Hours
                     </li>
                   </ul>
-                  <button>
-                    <div className="h4">reserve your seat</div>
-                  </button>
+                  <button>reserve your seat</button>
                 </div>
 
                 <div className="picture">

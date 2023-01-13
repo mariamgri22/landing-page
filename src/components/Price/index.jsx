@@ -43,9 +43,7 @@ export default function Price() {
                   <img src={done} alt="" /> Features 24/7 Support
                 </li>
               </ul>
-              <button>
-                <div className="h4">Get your deal</div>
-              </button>
+              <button>Get your deal</button>
             </div>
             <div className="gradientBlue"></div>
           </div>
@@ -78,9 +76,7 @@ export default function Price() {
                   <img src={done} alt="" /> Features 24/7 Support
                 </li>
               </ul>
-              <button>
-                <div className="h4">Get your deal</div>
-              </button>
+              <button>Get your deal</button>
             </div>
             <div className="gradientPink"></div>
           </div>
